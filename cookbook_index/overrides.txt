@@ -1,0 +1,48 @@
+# TargetIndexPage|TargetRecipeName|CorrectedRecipeName|TargetRecipePage|CorrectedRecipePage
+#
+# Only the incorrect part of each entry is specified. See scan_files.py for the format.
+# The "~" separator splits one scanned entry into several (names and pages must pair up).
+
+# ---- Index page 1003 ----
+1003|Chicken and vegetable soup|*|6|76
+1003|Chicken Provencal|Chicken Provencale|*|
+1003|Chinese pork and noodle soup|*|152|132
+1003|Chocolate cherry pie|Chocolate cherry cake|*|
+1003|Curried chicken noodles|*|311|341
+1003|Curried chicken pie|*|331|334
+1003|Dry potatoand pea curry|Dry potato and pea curry|*|
+1003|Fettuccine (.*)|Fettucine \1|*|
+1003|Fish koftas in tomato curry sauce|Fish kotkies in tomato curry sauce|*|
+
+# ---- Index page 1004 ----
+1004|Leek and caper saute|Leek and caper salad|*|
+1004|Marinated chilli squid|*|619|610
+
+# ---- Index page 1005 ----
+1005|Potato and coriander sambos(as)?|Potato and coriander samosas|*|
+1005|Ratatouille tart tatin|Ratatouille tarte tatin|*|
+# Skew put each page number one row above its name from "Red pesto" to the end of column 3
+1005|Red pesto|*|174|726
+1005|Red vegetable curry|*|726|762
+1005|Redcurrant glaze|*|762|274
+1005|Rendang.*|*|274|367
+1005|Rice cakes with Chinese roast duck|*|888|240
+1005|Rice pudding|*|240|887
+1005|Rice with chicken and seafood|*|887|168
+1005|Rich beef and mushroom lasagne|*|168|242
+1005|Risotto with scallops and minted peas|*|242|163
+1005|Roast beef on croutes|*|163|33
+1005|Rhubarb and pear crumble|*|*|888
+
+# ---- Index page 1006 ----
+1006|Seafood with chilli plum sauce|*|606|666
+1006|Seaweed batter|*|609|606
+1006|Spaghetti yongole|Spaghetti vongole|*|
+1006|Spicy corn pulls|Spicy corn puffs|*|
+
+# ---- Index page 1007 ----
+1007|Tuna with lime and chili sauce|Tuna with lime and chilli sauce|*|
+1007|Turkish bread with herbbed zucchini|Turkish bread with herbed zucchini|*|
+1007|Vegetable curry|*|38|691
+1007|Vegetable dumplings Vegetable frittata with hummus and black olives|Vegetable dumplings~Vegetable frittata with hummus and black olives|51|38~51
+1007|Warm chickpea and silvebeet salad with sumac|Warm chickpea and silverbeet salad with sumac|*|
